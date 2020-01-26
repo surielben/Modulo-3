@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Esta es la descripción de mi sitio web">
+   <meta name="keywords" content="fime, técnica desarrrollo web, learn">
+   <meta name="robots" content="NOINDEX, NOFOLLOW">
+   <meta name="author" content="FIME">
+   <title>Box Model / Margin & Padding</title>
+ <style>
+   * {
+     margin: 0;
+     padding: 0;
+
+     box-sizing: border-box;
+   }
+   .container {
+     width: 400px;
+     margin: auto;
+   }
+   .box {
+     background: #a0e1c2;
+     border: 5px #777 solid;
+     width: 100%;
+
+   padding: 20px 30px;
+   margin: 10 px 20px;
+   }
+   .box h3 {
+     padding-bottom: 10px;
+   }
+   </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="box">
+            <h3>Box Two</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            </div>
+          </div>
+        </div>
+      </body>
+      </html>
