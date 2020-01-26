@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
  <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Esta es la descripción de mi sitio web">
-   <meta name="keywords" content="fime, técnica desarrrollo web, learn">
-   <meta name="robots" content="NOINDEX, NOFOLLOW">
-   <meta name="author" content="FIME">
-   <title>Práctica 1 semana 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Listas y Tablas</title>
  </head>
- <style> media="screen">
+ <style>
  .block {
    text-align: center;
    background-color: lightgray;
@@ -21,32 +18,58 @@
    text-align: right;
    display: inline-block;
  }
-
-   
-
+ .block1{
+ text-align:right;
+ background-color: green;
+ }
+ .list{
+ text-align: right;
+ display:inline-block;
+ }
+ .block2{
+ text-align:left;
+ background-color: blue;
+ }
+ .block3{
+ text-align:right;
+ background-color: yellow;
+ }
+ .block4{
+ text-align:right;
+ background-color: red;
+ }
 
  </style>
  <body>
+   <!-- https://www.hazunaweb.com/curso-de-html/listas/ -->
    <!-- Listas No Ordenadas -->
+
+
+
    <center>
      <STRONG> Modulos de la Técnica Desarrollo Web </STRONG> </Center>
-   <ul>
+  <div class="block1">
+  <ul  class="list">
      <li>Modulo 1 Lógica Computacional</li>
      <li>Modulo 2 C++</li>
      <li>Modulo 3 Html5</li>
      <li>Modulo 4 JavaScript </li>
     </ul>
+  </div>
   <!-- Listas Ordenadas -->
   <center>
     <strong> <em> Deportes </em></strong></center>
-  <ol>
+  <div class="block">
+  <ol class="list">
   <li> Natación</li>
   <li> Tennis </li>
   <li> Softbol</li>
   <li> Ciclismo</li>
   </ol>
+</div>
   <!-- Listas Anidadas -->
-  <ol>
+  <div class="block2">
+  <ol class="list">
     <li> Muebles</li>
     <li> Películas
        <ul>
@@ -64,9 +87,11 @@
           </li>
           <li>Dato 4</li>
         </ol>
+      </div>
 
   <!-- Lista de Definiciones -->
-  <dl>
+  <div class="block3">
+  <dl class="list">
     <dt>Que es HTML</dt>
     <dd>Y aquí dentro irá la definición propiamente dicha.</dd>
     </dl>
@@ -78,7 +103,8 @@
 
 
   <!-- Tables -->
-  <table style="width: 800px">
+  <div class="block4">
+  <table style="width: 600px" color: red;>
     <thead>
       <tr>
         <th>First Name</th>
@@ -103,3 +129,7 @@
           <td>jeff@gmail.com</td>
           </tr>
           </tbody>
+        </table>
+      </div>
+    </body>
+    </html>
