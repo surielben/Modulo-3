@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline & Block Styling</title>
+  <style>
+    li {
+      /* El elemento se renderizará en línea con otros elementos, en este caso
+      los li. */
+      display: inline;
+    }
+    li a {
+      padding-right: 20px;
+    }
+    img {
+      /* Hace que el comportamiento del elemento sea como un bloque, respetan el
+      ancho, el alto y los márgenes verticales. */
+      display: block;
+      margin: auto;
+    }
+    .box {
+      width: 32.8%;
+      /* Los elementos inline-block fluyen con el texto y demás elementos como
+      si fueran elementos en-línea y además respetan el ancho, el alto y los
+      márgenes verticales */
+      display: inline-block;
+      box-sizing: border-box;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+  </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Technology<a/></li>
+      <li><a href="#">Business<a/></li>
+      <li><a href="#">Fashion<a/></li>
+    </ul>
+
+<br><br>
+
+<img src="/imagenes/Scorpions.jpg" alt="My image">
+
+<br><br>
+
+<div class="box">
+  <h3>Heading</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</div>
+<div class="box">
+  <h3>Heading</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</div>
+<div class="box">
+  <h3>Heading</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</div>
+</body>
+</html>
