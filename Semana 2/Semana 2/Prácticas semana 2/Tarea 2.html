@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>HTML &amp; CSS: Curso práctico avanzado</title>
+<style>
+body {
+/* Barra de Navegación */
+  background-color: navajowhite;
+  height: auto;
+  }
+  .navbar {
+    list-style: none;
+    margin: 50;
+    padding: 0;
+    background: #446190;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  .navbar h3 {
+    float: left;
+    font-size: 20px;
+    color: lightgray;
+  }
+  .navbar li {
+    float: right;
+    font-size: 20px;
+  }
+  .navbar li a {
+    display: block;
+    color: lightgray;
+    text-decoration: none;
+    padding: 15px 20px;
+  }
+  .navbar li a:hover {
+    background-color: coral;
+    color: #000000;
+  }
+   /* Recuadro */
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 960px;
+    margin: 30px auto;
+  }
+  .box {
+    background: #f4f4f4;
+
+    border: 3px solid #446190;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .box p {
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+  /* Estilo de los Encabezados */
+ .primary-heading {
+   color: black;
+   background-color: #446190;
+   border: 3px solid black;
+   border-radius: 10px;
+ }
+ .primary-heading1 {
+   color: black;
+   font-size: 31px;
+   font-style: italic;
+   background-color: #446190;
+   border: 3px solid black;
+   border-radius: 10px;
+ }
+ a {
+   color: white;
+   text-decoration: none;
+ }
+ /* El link será azul cuando el cursor pase encima de el */
+ a:hover {
+   color: blue;
+ }
+ /* El link permanecerá rojo cuando ya haya sido visitado */
+ a:visited {
+
+ }
+ /* El link será amarillo al momento que el usuario haga click sobre el */
+ a:active {
+   color: yellow;
+ }
+ /* Button styling */
+ .btn {
+   background: none;
+   weight: bold;
+   color: lightgray;
+   border: none;
+   font-size: 25px;
+   padding: 0px 0px;
+   border-radius: 0px;
+   cursor: pointer;
+ }
+ .btn:hover {
+   color: black;
+   background: coral;
+ }
+ #Curso {
+   background-color: ;
+ }
+ #Datos, #Descripción, #Contenido {
+   border: 0px solid;
+   padding: 10px;
+   margin-bottom: 5px;
+ }
+ #Curso li {
+   font-size: 25px;
+   color: black;
+ }
+ #Datos li {
+   font-size: 25px;
+ }
+ #Descripción p {
+   font-size: 20px;
+   font-weight: normal;
+
+ }
+ #Descripción span {
+   font-size: 20px;
+   font-weight: bold;
+ }
+ #Contenido li {
+   font-size: 20px;
+   border: 0px solid;
+   padding: 10px;
+   margin-bottom: 5px;
+ }
+ #Contenido1 {
+   font-size: 35px;
+   color: black;
+   font-style: italic;
+ }
+ #Contenido2 span {
+   font-weight: bold;
+   font-style: italic;
+   color: black;
+   background-color: lightblue;
+ }
+#Contenido2 p {
+  font-size: 20px;
+}
+  h1 {
+    background: steelblue;
+    color: darkblue;
+
+  }
+  h2 {
+    background: steelblue;
+    color: darkblue;
+  }
+</style>
+</head>
+<body>
+
+<!-- Lista de la Barra de Navegación -->
+
+ <ul class="navbar">
+   <h3 class="navbar"></h3><a class="btn" href="https://www.google.com/">HTML Y CSS</a>
+   <li><a href="#">Contactanos</a></li>
+   <li><a href="#">Servicios</a></li>
+   <li><a href="#">Conocenos</a></li>
+   <li><a href="#">Cursos</a></li>
+   <li><a href="#">Inicio</a></li>
+ </ul>
+ <br><br>
+
+
+
+
+
+<!-- Encabezado -->
+ <div id="Curso">
+  <center>
+<h1 class="primary-heading">HTML &amp; CSS: Curso práctico avanzado</h1>
+</center>
+<center>
+
+<div class="primary-heading1">
+<img src="imagenes/Html y Css9.jpg" alt="Imágen HTML y CSS" height=400; width=1200;>
+</div>
+</center>
+<br><br><br>
+
+<!-- Datos del libro -->
+<h2 class="primary-heading1"><i><strong>Datos del libro</strong></i></h2><br>
+<div id="Curso">
+<ul>
+<li><strong>Título: </strong><i>HTML &amp; CSS: Curso práctico avanzado</i></li><br>
+<li><strong>Autor: </strong><i>Sergio Luján Mora</i></li><br>
+<li><strong>Editorial: </strong><i>Publicaciones Altaria</i></li><br>
+<li><strong>Año de publicación: </strong><i>2015</i></li><br>
+<li><strong>ISBN: </strong><i>978-84-944049-4-8</i></li><br>
+</ul>
+</div>
+<hr>
+<br><br>
+
+
+<h2 class="primary-heading1"><i><strong>Descripción del libro</strong></i></h2>
+<div id="Descripción">
+<p>
+  <img src="imagenes/Html5.jpg" height=500; width=1200;>
+  <br><br><br>
+  <div class="container">
+    <div id="box-1" class="box">
+<p>Aunque los inicios de Internet se remontan a los años sesenta, no ha sido hasta los años noventa cuando,<span> <em> gracias a la Web</em></span>, se ha extendido su uso por todo el mundo.
+En pocos años,<span><em> la Web ha evolucionado enormemente:</em></span> se ha pasado de <span><em>páginas sencillas</em></span>, con pocas imágenes y contenidos estáticos que eran visitadas por unos
+pocos usuarios a <span><em>páginas complejas</em></span>, con contenidos dinámicos que provienen de bases de datos y que son visitadas por miles de usuarios al mismo tiempo.
+</p><br>
+</div>
+
+<div id="box-1" class="box">
+<p>
+Todas las páginas están internamente construidas con la misma tecnología, con el <span>Lenguaje de marcas de hipertexto</span>
+(Hypertext Markup Language, HTML) y con las <span>Hojas de estilo en cascada</span> (Cascading Style Sheets, CSS).
+</p><br>
+</div>
+
+<div id="box-1" class="box">
+<p>
+Este libro es adecuado para cualquiera que tenga interés en <span>aprender a desarrollar sus propias páginas web.</span>
+No son necesarios conocimientos previos para aprender con este libro, lo único que es necesario es <span>saber utilizar un ordenador y saber navegar por la Web.</span>
+</p>
+<br><br><br><br>
+</div>
+</div>
+</div>
+
+<h2 class="primary-heading1"><i><strong>Contenido del libro</strong></i></h2>
+<img src="imagenes/Html y Css2.jpg" height=300; width=1200;>
+
+<div id="Contenido1">
+<p>
+El contenido de este libro se estructura en tres apartados bien diferenciados:
+</p>
+</div>
+
+
+<ul>
+<div id="Contenido">
+  <div id="Contenido2">
+    <div class="container">
+    <div id="box-1" class="box">
+<p>En la primera parte del libro se trabajan conceptos generales que son necesarios para poder desarrollar páginas web;
+  se explican conceptos de <span>estructura física</span> y <span>estructura lógica</span> (o estructura de navegación) de un sitio web.
+  Se detalla <span>cómo influye la estructura física en las URL</span> o direcciones que se emplean a la hora de crear los enlaces de un sitio web.
+  Pasando por el concepto de <span>"estándar web"</span>, un término general que se emplea para refererirse a los estándares que define su funcionamiento como <span>HTML y CSS</span>,
+  empleados para el desarrollo de las páginas web en el lado del cliente.</p><br><br>
+</div>
+
+<div id="box-1" class="box">
+<p>En la segunda parte se trabaja <span>HTML</span>. Partiendo de la estructura básica de una página web,
+  se explican las <span>etiquetas de HTML</span> que se utilizan para definir el texto, los enlaces, las listas, las tablas,
+  los formularios y los elementos multimedia.</p><br><br>
+</div>
+
+<div id="box-1" class="box">
+<p>En la tercera y última parte se explica <span>CSS</span>, el lenguaje que se emplea para definir el formato y la presentación de una página web.
+  Se explica cómo utilizar el color, cómo definir la presentación del texto, de las tablas y de los formularios; cómo realizar <span>transformaciones
+  y transiciones</span> con el fin de diseñar una página web.</p>
+</ul>
+</div>
+ </div>
+</div>
+</div>
+
+</div>
+<br><br>
+<footer>&copy;2020 HTML y CSS. Todos los derechos reservados.
+</footer>
+</body>
+</html>
